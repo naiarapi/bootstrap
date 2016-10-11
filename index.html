@@ -16,14 +16,46 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+     
+     #GV,#logo{
+       float:right;
+       width:100px;
+       height:60px;
+     }
+     
+     #cubos{
+      float: left;
+      position: relative;
+      left: 20%;
+     }
+     
+     .navbar.navbar-default{
+       background-color: blue;
+     }
+     .nav.navbar-nav{
+       color:black !important;
+       
+     }
+     
+   
+      
+    </style>
   </head>
   <body>
    
     
-    <div class="container">
-        <div class="row">
-            <img src="img/header.png" class="img-responsive">
+    <div class="container-fluid">
+        <div class="row" id="cabezera" >
+           <img src="img/logoGV.png" class="img-responsive" id="GV">
+           <img src="img/logoZubiri.png" class="img-responsive" id="logo">
         </div>
+         <div class="row" id="cabezera2" >
+          <div class= col-sm-12>
+           <img src="img/logoCubos.png" class="img-responsive" id="cubos">
+         </div> 
+        </div>  
+        
         <!--inicio de NavBar-->
         <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -41,8 +73,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#" class="glyphicon glyphicon-home">Nosotros<span class="sr-only">(current)</span></a></li>
-                <li><a href="#" class="glyphicon glyphicon-education">Formacion</a></li>
+                <li><a href="#" class="glyphicon glyphicon-home">Nosotros<span class="sr-only">(current)</span></a></li>
+                <li><a href="#" class="glyphicon glyphicon-education"></br>Formacion</a></li>
                 <li><a href="#" class="glyphicon glyphicon-book">Proyecto</a></li>
              </ul>
           
@@ -52,16 +84,16 @@
         
         <div class="row">
             <div class="col-md-3 col-sm-4">
-                <img src="img/sideNavIzda.png"  class="img-responsive">
+                <img src="img/sideNavDcha.png"  class="img-responsive">
             </div> 
-            <div class="col-md-6 col-sm 8 ">
+            <div class="col-md-6 col-sm 9 ">
              <img src="img/ContentPost1.png"  class="img-responsive">
              <img src="img/ContentPost1.png"  class="img-responsive">
              
             </div>
             
             <div class="col-md-3 visible-md">
-                <img src="img/sideNavDcha.png"  class="img-responsive">
+                <img src="img/sideNavIzda.png"  class="img-responsive">
             </div> 
            
         </div>
