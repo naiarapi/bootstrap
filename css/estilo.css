@@ -1,0 +1,120 @@
+     #GV,#logo{
+       float:right;
+       width:100px;
+       height:60px;
+     }
+     
+     #cubos{
+      float: left;
+      position: relative;
+      left: 20%;
+     }
+   
+    #footer{
+        width: 100%;
+        height:200px;
+     }
+ 
+    body {
+        margin: 0;
+    
+    }
+    
+    ul.topnav {
+        list-style-type: none;
+       
+     
+        overflow: hidden;
+    }
+    
+    ul.topnav li {
+        float: left;
+    }
+    
+    ul.topnav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 18px 16px;
+        text-decoration: none;
+         
+    }
+    
+    ul.topnav li a:hover{
+        background-color: #6767FA;
+        
+    }
+    
+    ul.topnav li.right {
+        float: right;
+        
+    }
+    
+    @media screen and (max-width: 600px){
+        ul.topnav li.right,
+        ul.topnav li {
+            float: none;
+            
+        }
+    }
+  .navbar.navbar-default{
+      background-color: #CEECF5;
+       margin-left: -15px;
+        margin-right: -15px;
+      
+   }
+  .btn.btn-primary{
+       background-color: #CEECF5;
+       color: black;
+   }
+  
+  .thumbnail {
+    
+    
+    background-size: 25px 50px;
+   
+    }
+    
+
+
+  
+    p, h3 {
+    font-family: "Times New Roman", Times, serif;
+    }
+    .clear:before, .clear:after {
+    content: " ";
+    display: table;
+    }
+     
+    .clear:after {
+        clear: both;
+    }
+     
+    .clear {
+        *zoom: 1;
+    }
+    
+    
+    .parallax{
+        background-image: url("../img/zubiri.jpg");
+        height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    
+     .paginacion{
+         border: none !important;
+         background-color: none !important;
+          
+      }
+
+ 
+       img{
+           height: 300px;
+           width: 300px;
+       
+       }
+       
+      
